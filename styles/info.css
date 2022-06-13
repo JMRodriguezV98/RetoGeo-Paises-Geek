@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rebeccapurple;
+    font-family: 'Pacifico', cursive;
+}
+
+#back:hover{
+    color: rgb(5, 105, 193);
+}
+
+#app{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#infoSection{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+
+#image{
+    width: 90%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+#lugar{
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+}
+
+#lugar:hover{
+    transform: scale(1.07);
+    transition: 0.5s ease;
+    cursor: default;
+}
+
+#title{
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    cursor: default;
+}
+
+#descripcion{
+    text-align: center;
+    cursor: default;
+}
+
+#continente{
+    width: 25%;
+    height: 30%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    transform: rotate(-10deg);
+}
+
+#continente:hover{
+    transition: 0.5s ease;
+    transform: rotate(0deg);
+}
+
+#formSection{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+#formulario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+}
+
+#campoLugar{
+    width: 60%;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 5%;
+}
+
+#campoLugar:disabled{
+    background-color: rgb(237, 234, 234);
+    border: 1px solid;
+}
+
+#pais{
+    width: 60%;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 5%;
+}
+
+#pais:disabled{
+    background-color: rgb(237, 234, 234);
+    border: 1px solid;
+}
+
+#fechaPartida{
+    width: 60%;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    height: 5%;
+    font-size: large;
+    border: 1px solid black;
+}
+
+label{
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+}
+
+#fechaRetorno{
+    width: 60%;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    height: 5%;
+    font-size: large;
+    border: 1px solid black;
+}
+
+#mensaje{
+    width: 60%;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    font-size: large;
+    border: 1px solid black;
+}
+
+#enviar{
+    height: 10%;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(94, 194, 241, 0.765);
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+    cursor: pointer;
+    color: rgb(49, 6, 6);
+}
+
+#enviar:hover{
+    transition: 0.5s ease;
+    background-color: rgb(90, 155, 246);
+    transform: scale(1.08);
+    color: white;
+}

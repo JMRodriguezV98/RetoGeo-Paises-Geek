@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion destino</title>
+    <link rel="stylesheet" href="/styles/info.css">
+    <link rel="icon" href="/src/img/logo (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="contenedor">
+        <button id="back">Regresar</button>
+        <div id="app">
+            <div id="infoSection">
+                <img id="image" src="" alt="">
+                <div id="lugar"></div>
+                <div id="descripcion"></div>
+                <img id="continente" src="" alt="">
+            </div>
+            <div id="formSection">
+                <div id="title">Agenda tu cita</div>
+                <form id="formulario" action="#">
+                    <input id="campoLugar" type="text">
+                    <input id="pais" type="text">
+                    <label for="">Fecha de partida</label>
+                    <input id="fechaPartida" type="date">
+                    <label for="">Fecha de retorno</label>
+                    <input id="fechaRetorno" type="date">
+                    <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+                    <button id="enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/scripts/info.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

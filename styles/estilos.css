@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/src/img/logo\ \(1\).png");
+    height: 90%;
+    width: 6%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#spacing{
+    height: 10%;
+    width: 50%;
+}
+
+.enlace{
+    height: 60%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 206, 227);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.enlace:hover{
+    transform: scale(1.06) rotate(10deg);
+    transition: 0.5s ease;
+    background-color: rgb(74, 74, 202);
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 85%;
+}
+
+#contentImages{
+    display: flex;
+    width: 90%;
+    height: 50%;
+}
+
+.imags{
+    height: 100%;
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    cursor: pointer;
+}
+
+#africa{
+    background-image: url("/src/img/AFRICA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-10deg);
+}
+
+#africa:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+#asia{
+    background-image: url("/src/img/ASIA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(10deg);
+}
+
+#asia:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+#europa{
+    background-image: url("/src/img/EUROPA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transform: rotate(-10deg);
+}
+
+#europa:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+#oceania{
+    background-image: url("/src/img/OCEANIA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(10deg);
+}
+
+#oceania:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+#america{
+    background-image: url("/src/img/AMERICA.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-10deg);
+}
+
+#america:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+#muestras{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 95%;
+    top: 600px;
+}
+
+#contentOpcions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2000px;
+}
+
+#moreOpcions{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    height: 30%;
+    border-radius:  40px;
+    border: 2px solid black;
+}
+
+img{
+    border-radius:  40px 40px 0 0;
+}
+
+#places{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#contentBtn{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more{
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(70, 81, 245);
+}
+
+.more:hover{
+    transform: scale(1.1);
+    background-color: blue;
+    transition: 0.5s ease;
+}
